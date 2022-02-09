@@ -1,5 +1,0 @@
-functions in linked list
-
-singly linked list
-doubly linked list
-thank you
