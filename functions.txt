@@ -1,0 +1,3 @@
+functions in linked list
+
+singly linked list
