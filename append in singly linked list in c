@@ -15,10 +15,12 @@ void main()
   int ch;
   while(1)
   {
+  printf("------------------------")
   printf("linked list operations\n");
   printf("1.append\n");
   printf("2.length\n");
   printf("3.display\n");
+  printf("--------------------")
   printf("enter your choice");
   scanf("%d",&ch);
   switch(ch)
