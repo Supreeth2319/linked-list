@@ -83,7 +83,7 @@ void display()
   temp=head;
   if(temp==NULL)
   {
-    printf("linked list id empty ");
+    printf("linked list is empty there are no elements to display ");
   }
   else
   {
