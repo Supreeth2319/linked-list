@@ -7,7 +7,7 @@ struct node
 };
 struct node*head=NULL;
 int len;
-void append(void);
+void insert_at_end(void);
 int length(void);
 void display(void);
 void insatbeg(void);
@@ -17,7 +17,7 @@ void main()
   while(1)
   {
   printf("\nlinked list operations\n");
-  printf("1.append\n");
+  printf("1.insert at end\n");
   printf("2.length\n");
   printf("3.display\n");
   printf("\n5.add at beginning\n");
@@ -26,7 +26,7 @@ void main()
   scanf("%d",&ch);
   switch(ch)
   {
-    case 1:append();
+    case 1:insert_at_end();
     break;
     case 2:len=length();
     printf("length of the list is %d",len);
@@ -42,7 +42,7 @@ void main()
   }
 
 }
-void append()
+void insert_at_end()
 {
   struct node*temp;
   temp=(struct node*)malloc(sizeof(struct node));
