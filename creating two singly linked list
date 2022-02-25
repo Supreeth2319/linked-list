@@ -7,7 +7,7 @@ struct node
 };
 struct node*head=NULL;
 struct node*head2=NULL;
-void append(void);
+void insert_at_end(void);
 void display(void);
 void concatinate(void);
 void main()
@@ -23,7 +23,7 @@ void main()
   scanf("%d",&ch);
   switch(ch)
   {
-    case 1:append();
+    case 1:insert_at_end();
     break;
     case 2:display();
     break;
@@ -33,7 +33,7 @@ void main()
   }
   }
 }
-void append()
+void insert_at_end()
 {
   struct node*temp1,*temp2;
   temp1=(struct node*)malloc(sizeof(struct node));
