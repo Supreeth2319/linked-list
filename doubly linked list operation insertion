@@ -17,11 +17,13 @@ int main()
   int ch;
   while(1)
   {
+  printf("-----------------------------");
   printf("linked list operations\n");
   printf("1 insert_at_beggining\n");
   printf("2.insert at specific point\n");
   printf("3.length of the  doubly link list\n");
   printf("4.display doubly linked list\n");
+  Printf("---‐----------------------------");
   printf("enter your choice");
   scanf("%d",&ch);
   switch(ch)
