@@ -91,7 +91,7 @@ void display()
 {
 struct node*temp;
 temp=head;
-while(temp->rlink!=NULL)
+while(temp!=NULL)
   {
     printf("%s\n",temp->data);
     temp=temp->rlink;
